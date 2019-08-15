@@ -1,0 +1,137 @@
+.commom {
+  li {
+    width: 100%;
+    padding: 0.4rem 0.3rem;
+    border-bottom: 1px solid #f9f9f9;
+
+    p {
+      &:nth-of-type(1) {
+        font-size: 0.45rem;
+        color: #333;
+        display: flex;
+        align-items: center;
+
+        span {
+          &:nth-of-type(2) {
+            color: #999;
+            margin-left: 0.45rem;
+            flex: 1;
+            font-size: 0.4rem;
+          }
+        }
+
+        i {
+          color: #999;
+          font-size: 0.6rem;
+        }
+      }
+
+      &:nth-of-type(2) {
+        margin: 0.3rem 0rem;
+        font-size: 0.38rem;
+        color: #40d0b3;
+
+        span {
+          &:nth-of-type(2) {
+            margin-left: 0.45rem;
+          }
+        }
+      }
+    }
+
+    >div {
+      display: flex;
+      margin-top: 0.75rem;
+      align-items: center;
+
+      >div {
+        flex: 1;
+
+        p {
+          &:nth-of-type(2) {
+            font-size: 0.35rem;
+            color: #999;
+            margin: 0.2rem 0rem 0rem;
+          }
+
+          &:nth-of-type(1) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+              font-size: 0.35rem;
+              color: #f02310;
+            }
+          }
+        }
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1rem;
+        outline: none;
+        border: 1px solid rgba(64, 208, 179, 1);
+        border-radius: 10px;
+        padding-bottom: 0.2rem;
+        line-height: 1rem;
+        padding: 0 0.45rem;
+        color: #40d0b3;
+        font-size: 0.38rem;
+        background: transparent;
+      }
+    }
+  }
+}
+
+#morePic {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  padding: 0.2rem 0.4rem;
+
+  .Pic {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    div {
+
+      margin-right: 0.4rem;
+      position: relative;
+      left: 0;
+      top: 0;
+
+      >i {
+        position: absolute;
+        right: -0.35rem;
+        top: rem;
+        font-size: 0.5rem;
+        background: #ccc;
+        color: rgb(10, 1, 1);
+      }
+
+      img {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+    }
+
+  }
+
+  .van-uploader {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #ccc;
+
+    >i {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
